@@ -1,0 +1,49 @@
+:root{
+    --main-color: #027581;
+    --color-dark: #102231;
+    --text-grey: #8390A2;
+}
+
+.pagination {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+justify-content: center;
+
+align-content: center;
+/* background-color:var(--color-dark); */
+
+}
+
+.pagination span{
+    padding: 5px;
+margin: 5px;
+border: solid 1px;
+border-radius: 5px;
+color: rgb(255, 255, 255);
+background-color: silver;
+}
+
+.pagination span a{
+    color: aliceblue;
+
+}
+
+.pagination span:hover{
+    
+    background-color: darkgray;
+}
+
+.pagination span:active{
+    background-color: rgb(49, 49, 49);
+}
+
+.active-page{
+    /* background-color: aquamarine; */
+}
+
+
+
+
+
+
